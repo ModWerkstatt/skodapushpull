@@ -12,7 +12,7 @@ return {
 		        role = "CREATOR",
 		    },
 		},
-		tags = { "europe", "germany", "bahn", "n-Wagen", "UIC-X", "coach", "silberling" },
+		tags = { "europe", "germany", "bahn", "skoday", "dostos", "coach", "nim" },
 		tfnetId = { },
 		minGameVersion = 0,
 		dependencies = { },
@@ -20,9 +20,9 @@ return {
 	},
 	options = {
 	},
-	
+
 	runFn = function (settings)
-	
+
 	end
 	}
 end
