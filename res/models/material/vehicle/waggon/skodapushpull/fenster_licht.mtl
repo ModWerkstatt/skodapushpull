@@ -1,0 +1,36 @@
+function data()
+return {
+	order = -1,
+    params = {
+		alpha_scale = {
+			alphaScale = 1,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/waggon/skodapushpull/fenster_sw_albedo_opacity.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/waggon/skodapushpull/fenster_sw_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		polygon_offset = {
+			forceDepthWrite = false,
+            factor = -1,
+            units = -1,
+		},
+		two_sided = {
+			flipNormal = false,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT",
+}
+end
