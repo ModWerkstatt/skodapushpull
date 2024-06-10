@@ -6,7 +6,7 @@ return {
 	},
 	collider = {
 		params = {
-			halfExtents = { 13.567489624023, 3.3419082164764, 2.3382203578949, },
+			halfExtents = { 13.567489624023, 1.4419082164764, 4.6382203578949, },
 		},
 		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 		type = "BOX",
@@ -16,33 +16,33 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/rumpf_mw_lod0.msh",
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/rumpf_ew_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod0.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/magnetbremse_lod0.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod0.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod0.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -54,25 +54,25 @@ return {
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod0.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/magnetbremse_lod0.msh",
 						            name = "magnetbremse",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod0.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod0.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -110,7 +110,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod0.msh",
 						name = "tuer1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.66, -1.385, 1.9555, 1, },
@@ -144,7 +144,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod0.msh",
 						name = "tuer2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6181, -1.385, 1.9555, 1, },
@@ -178,7 +178,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod0.msh",
 						name = "tuer3",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.66, 1.385, 1.9555, 1, },
@@ -212,7 +212,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod0.msh",
 						name = "tuer4",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6181, 1.385, 1.9555, 1, },
@@ -246,7 +246,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
 						name = "tritt1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.61929, 1.1969, 0.55, 1, },
@@ -280,7 +280,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
 						name = "tritt2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.61929, 1.1969, 0.55, 1, },
@@ -314,7 +314,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
 						name = "tritt3",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.61929, -1.1969, 0.55, 1, },
@@ -348,26 +348,26 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
 						name = "Endtür",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.61929, -1.1969, 0.55, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/skodapushpull/innen.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/innen_mw_lod0.msh",
+						mesh = "vehicle/waggon/skodapushpull/innen_ew_lod0.msh",
 						name = "tritt4",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/skodapushpull/fenster.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/fenster_mw_lod0.msh",
+						mesh = "vehicle/waggon/skodapushpull/fenster_ew_lod0.msh",
 						name = "tritt4",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
-				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
 			static = false,
 			visibleFrom = 0,
@@ -377,27 +377,27 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/rumpf_mw_lod1.msh",
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/rumpf_ew_lod1.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod1.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -409,19 +409,19 @@ return {
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod1.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -459,7 +459,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod1.msh",
 						name = "tuer1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.66, -1.385, 1.9555, 1, },
@@ -493,7 +493,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod1.msh",
 						name = "tuer2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6181, -1.385, 1.9555, 1, },
@@ -527,7 +527,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod1.msh",
 						name = "tuer3",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.66, 1.385, 1.9555, 1, },
@@ -561,26 +561,156 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod1.msh",
 						name = "tuer4",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6181, 1.385, 1.9555, 1, },
 					},
 					{
-						materials = { "vehicle/waggon/skodapushpull/innen.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/innen_mw_lod0.msh",
-						name = "tritt4",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
+						name = "tritt1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.61929, 1.1969, 0.55, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
+						name = "tritt2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.61929, 1.1969, 0.55, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
+						name = "tritt3",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.61929, -1.1969, 0.55, 1, },
+					},
+					{
+				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
+						name = "Endtür",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.61929, -1.1969, 0.55, 1, },
 					},
 					{
 						materials = { "vehicle/waggon/skodapushpull/fenster.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/fenster_mw_lod0.msh",
+						mesh = "vehicle/waggon/skodapushpull/fenster_ew_lod0.msh",
 						name = "tritt4",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
 				name = "RootNode",
-				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
 			static = false,
 			visibleFrom = 100,
@@ -590,27 +720,27 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/rumpf_mw_lod2.msh",
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/rumpf_ew_lod2.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod2.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod2.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod2.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -622,19 +752,19 @@ return {
                     {
 			            	children = {
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod2.msh",
 						            name = "bogie",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod2.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
 					            },
 					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", },
+						            materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", },
 						            mesh = "vehicle/waggon/skodapushpull/rad_lod2.msh",
 						            name = "rad",
 						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
@@ -672,7 +802,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod2.msh",
 						name = "tuer1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.66, -1.385, 1.9555, 1, },
@@ -706,7 +836,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod2.msh",
 						name = "tuer2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6181, -1.385, 1.9555, 1, },
@@ -740,7 +870,7 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_1_lod2.msh",
 						name = "tuer3",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.66, 1.385, 1.9555, 1, },
@@ -774,14 +904,14 @@ return {
 						        type = "FILE_REF",
 					        },
 				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_mw.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_ew.mtl", "vehicle/waggon/skodapushpull/fenster.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tuer_2_lod2.msh",
 						name = "tuer4",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6181, 1.385, 1.9555, 1, },
 					},
 				},
 				name = "RootNode",
-				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
 			static = false,
 			visibleFrom = 300,
@@ -797,7 +927,7 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("SkodaPushPull_mw_name"),
+			name = _("SkodaPushPull_ew_name"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -876,24 +1006,7 @@ return {
 					group = 1,
 					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.4, 1.0, 1.2, 1, },
 				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.4, 0.55, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.55, 1.0, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.55, 0.55, 1.2, 1, },
-				},
+
                 {
 					animation = "sitting",
 					crew = false,
@@ -904,69 +1017,48 @@ return {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.4, -0.55, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.55, -1.0, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.55, -0.55, 1.2, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 12.4, -0.45, 1.2, 1, },
 				},
 
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.95, 1.0, 1.2, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.55, 1.0, 1.2, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.95, 0.55, 1.2, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.55, -1.0, 1.2, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.05, 1.0, 1.2, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 11.55, -0.45, 1.2, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.4, 1.0, 1.2, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.05, 0.55, 1.2, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.5, -1.0, 1.2, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.95, -1.0, 1.2, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.5, -0.55, 1.2, 1, },
 				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 10.95, -0.55, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.05, -1.0, 1.2, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 10.05, -0.55, 1.2, 1, },
-				},
+
+                --- Ende 1. Kl.
 
                 {
 					animation = "sitting",
@@ -1023,89 +1115,216 @@ return {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.25, 1.0, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 1.0, 0.45, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.25, 0.55, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2, 0.55, 0.45, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, 1.0, 0.55, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.1, 1.0, 0.45, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, 0.55, 0.55, 1, },
-				},
-
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.25, -1.0, 0.55, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.25, -0.55, 0.55, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -1.0, 0.55, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.65, -0.55, 0.55, 1, },
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.1, 0.55, 0.45, 1, },
 				},
 
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.65, 1.0, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.35, 1.0, 0.45, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.65, 0.55, 0.55, 1, },
-				},
-
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.65, -1.0, 0.55, 1, },
-				},
-                {
-					animation = "sitting",
-					crew = false,
-					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.65, -0.55, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.35, 0.55, 0.45, 1, },
 				},
 
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.65, -1.0, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.55, 1.0, 0.45, 1, },
 				},
                 {
 					animation = "sitting",
 					crew = false,
 					group = 1,
-					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.65, -0.55, 0.55, 1, },
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.55, 0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.25, 1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.25, 0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2, 1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2, 0.55, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.15, 1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.15, 0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0, 1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.0, 0.55, 0.45, 1, },
+				},
+
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.25, 1.0, 0.45, 1, },
+				},
+
+                ---
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, -1.0, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, -0.55, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8, -1.0, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, -0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.1, -0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.1, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.1, -0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.75, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.75, -0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.45, -0.55, 0.45, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.65, -1.0, 0.45, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.65, -0.55, 0.45, 1, },
 				},
 
                 -------upper deck --------

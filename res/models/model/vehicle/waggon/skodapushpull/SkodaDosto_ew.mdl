@@ -1741,7 +1741,7 @@ return {
 				},
 			},
 			loadSpeed = 4,
-			multipleUnitOnly = false,
+			multipleUnitOnly = true,
 			reversible = false,
 		},
 	},

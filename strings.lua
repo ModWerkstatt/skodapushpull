@@ -75,7 +75,7 @@ return {
         ["nwagen_karlsruher1_karlsruher_bw_desc"] = "Steuerwagen der n-Wagen-Serie gebaut im AW Karlsruhe, daher \"Karlsruher Kopf\" genannt. Im Gegensatz zu den bisherigen Steuerwagen bot er eine bessere Streckensicht und mehr Platz. Wagen mit Steuerabteil nach hinten. Farbgebung in Sonderlackierung des Karlsruher Zuges.",
 	},
 	de = {
-		["mod_name"] = "Škoda Nürnber-München-Express",
+		["mod_name"] = "Škoda Nürnberg-München-Express",
 		["mod_desc"] = "Als n-Wagen wird eine Gattung von Personenwagen der Deutschen Bundesbahn beziehungsweise der Deutschen Bahn AG bezeichnet. Umgangssprachlich ist die Wagengattung als Silberling bekannt geworden. Diese Bezeichnung verdanken die Nahverkehrswagen der Farbe des ursprünglich unlackierten Wagenkastens aus blankem rostfreiem Stahl mit aufgebürstetem Pfauenaugenmuster. Die Wagen wurden zwischen 1958 und 1980 in rund 5000 Exemplaren gebaut und sind teilweise bis heute bei DB Regio im Einsatz. ",
 
         ["menu_nwagen"] = "n-Wagen",
