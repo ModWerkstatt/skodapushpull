@@ -360,6 +360,12 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
+						materials = { "vehicle/waggon/skodapushpull/innen_sw.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/innen2_sw_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
 						materials = { "vehicle/waggon/skodapushpull/fenster_sw.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/fenster_sw_lod0.msh",
 						name = "fenster",
@@ -1027,8 +1033,8 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/waggon/skodapushpull/rad_lod0.msh", },
-                    frontForwardParts = { 23 },
-                    backBackwardParts = { 22 },
+                    frontForwardParts = { 24 },
+                    backBackwardParts = { 23 },
 				},
 				{
 					axles = { "vehicle/waggon/skodapushpull/rad_lod1.msh", },
@@ -1049,8 +1055,17 @@ return {
 			weight = 74,
 		},
 		seatProvider = {
+            crewModels = {"characters/era_c_driver_rail.mdl" },
 			drivingLicense = "RAIL",
 			seats = {
+				{
+					animation = "driving_upright",
+					crew = true,
+					forward = true,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -11.0, 0, 1.45, 1, },
+				},
+
                 {
 					animation = "sitting",
 					crew = false,
