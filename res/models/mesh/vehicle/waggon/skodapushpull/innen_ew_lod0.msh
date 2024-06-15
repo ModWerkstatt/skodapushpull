@@ -5,19 +5,19 @@ return {
 			indices = {
 				normal = {
 					count = 699192,
-					offset = 3844996,
+					offset = 3845188,
 				},
 				position = {
 					count = 699192,
-					offset = 2446612,
+					offset = 2446804,
 				},
 				tangent = {
 					count = 699192,
-					offset = 4544188,
+					offset = 4544380,
 				},
 				uv0 = {
 					count = 699192,
-					offset = 3145804,
+					offset = 3145996,
 				},
 			},
 		},
@@ -26,7 +26,7 @@ return {
 		normal = {
 			count = 444648,
 			numComp = 3,
-			offset = 1060620,
+			offset = 1060812,
 		},
 		position = {
 			count = 600276,
@@ -36,10 +36,10 @@ return {
 		tangent = {
 			count = 941344,
 			numComp = 4,
-			offset = 1505268,
+			offset = 1505460,
 		},
 		uv0 = {
-			count = 460344,
+			count = 460536,
 			numComp = 2,
 			offset = 600276,
 		},
