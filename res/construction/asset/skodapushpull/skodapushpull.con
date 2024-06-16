@@ -1,0 +1,47 @@
+function data()
+return {
+	type = "ASSET_TRACK",
+	description = {
+		name = _("Skoda Nürnberg-München-Express"),
+		description = _("Statische Assets für die Wagen.")
+	},
+	availability = {},
+	buildMode = "MULTI",
+	categories = { "trains" },
+	order = 212210301,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "skodapushpull",
+			name = _("skoda_nim_assets"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/asset/skodapushpull/SkodaDosto_ew@2x.tga", "ui/construction/asset/skodapushpull/SkodaDosto_mw@2x.tga", "ui/construction/asset/skodapushpull/SkodaDosto_sw@2x.tga", },
+			tooltip = _("Skoda Nürnberg-München-Express Wagen"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+
+		if params.skodapushpull == 0 then
+		result.models[#result.models+1] = {id = "asset/waggon/skodapushpull/SkodaDosto_ew.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.skodapushpull == 1 then
+		result.models[#result.models+1] = {id = "asset/waggon/skodapushpull/SkodaDosto_mw.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.skodapushpull == 2 then
+		result.models[#result.models+1] = {id = "asset/waggon/skodapushpull/SkodaDosto_sw.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

@@ -1524,6 +1524,7 @@ return {
 			loadSpeed = 4,
 			multipleUnitOnly = true,
 			reversible = false,
+            groupFileName = "vehicle/waggon/skodapushpull/menu_SkodaDosto.mdl",
 		},
 	},
 	version = 1,
