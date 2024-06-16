@@ -454,54 +454,6 @@ return {
 				            name = "bogie2",
 				            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.67507, 0, 0.445298, 1, },
                     },
-                    {
-			            	children = {
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod1.msh",
-						            name = "bogie",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					            },
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
-						            name = "rad",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
-					            },
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
-						            name = "rad",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
-					            },
-                            },
-				            name = "bogie1",
-				            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.67507, 0, 0.445298, 1, },
-                    },
-                    {
-			            	children = {
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/drehgestell_lod1.msh",
-						            name = "bogie",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					            },
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
-						            name = "rad",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1919, 0, 0, 1, },
-					            },
-					            {
-						            materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						            mesh = "vehicle/waggon/skodapushpull/rad_lod1.msh",
-						            name = "rad",
-						            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1919, 0, 0, 1, },
-					            },
-                            },
-				            name = "bogie2",
-				            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.67507, 0, 0.445298, 1, },
-                    },
 					{
 				        animations = {
 					        open_doors_right = {
