@@ -828,6 +828,7 @@ return {
 		},
 		description = {
 			name = _("SkodaPushPull_sw_name"),
+            description = _("skodapushpull_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -902,8 +903,8 @@ return {
 				},
 				{
 					axles = { "vehicle/waggon/skodapushpull/rad_lod1.msh", },
-                    frontForwardParts = { 20 },
-                    backBackwardParts = { 19 },
+                    frontBackwardParts = { 20 },
+                    backForwardParts = { 19 },
 				},
 				{
 					axles = { "vehicle/waggon/skodapushpull/rad_lod2.msh", },

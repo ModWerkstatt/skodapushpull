@@ -798,6 +798,7 @@ return {
 		},
 		description = {
 			name = _("SkodaPushPull_mw_name"),
+            description = _("skodapushpull_desc"),
 		},
 		emission = {
 			idleEmission = -1,

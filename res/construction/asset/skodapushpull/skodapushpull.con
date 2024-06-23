@@ -2,7 +2,7 @@ function data()
 return {
 	type = "ASSET_TRACK",
 	description = {
-		name = _("Skoda Nürnberg-München-Express"),
+		name = _("Skoda München-Nürnberg-Express"),
 		description = _("Statische Assets für die Wagen.")
 	},
 	availability = {},
@@ -17,7 +17,7 @@ return {
 			name = _("skoda_nim_assets"),
 			uiType = "ICON_BUTTON",
 			values = { "ui/construction/asset/skodapushpull/SkodaDosto_ew@2x.tga", "ui/construction/asset/skodapushpull/SkodaDosto_mw@2x.tga", "ui/construction/asset/skodapushpull/SkodaDosto_sw@2x.tga", },
-			tooltip = _("Skoda Nürnberg-München-Express Wagen"),
+			tooltip = _("Skoda München-Nürnberg-Express Wagen"),
 		},
 	},
 	updateFn = function(params)

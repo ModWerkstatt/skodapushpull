@@ -83,13 +83,13 @@ return {
                     },
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -117,13 +117,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -151,13 +151,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -185,13 +185,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -219,13 +219,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tritt.ani",
@@ -253,6 +253,40 @@ return {
 					},
 					{
 				        animations = {
+					        open_doors_right = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_doors_right = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        open_all_doors = {
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+					        close_all_doors = {
+							forward = false,
+						        params = {
+							        id = "vehicle/train/skodapushpull/tritt.ani",
+						        },
+						        type = "FILE_REF",
+					        },
+				        },
+						materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
+						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
+						name = "tritt2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.61929, 1.1969, 0.55, 1, },
+					},
+					{
+				        animations = {
 					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tritt.ani",
@@ -282,52 +316,18 @@ return {
 				        },
 						materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
 						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
-						name = "tritt2",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.61929, 1.1969, 0.55, 1, },
-					},
-					{
-				        animations = {
-					        open_doors_right = {
-						        params = {
-							        id = "vehicle/train/skodapushpull/tritt.ani",
-						        },
-						        type = "FILE_REF",
-					        },
-					        close_doors_right = {
-							forward = false,
-						        params = {
-							        id = "vehicle/train/skodapushpull/tritt.ani",
-						        },
-						        type = "FILE_REF",
-					        },
-					        open_all_doors = {
-						        params = {
-							        id = "vehicle/train/skodapushpull/tritt.ani",
-						        },
-						        type = "FILE_REF",
-					        },
-					        close_all_doors = {
-							forward = false,
-						        params = {
-							        id = "vehicle/train/skodapushpull/tritt.ani",
-						        },
-						        type = "FILE_REF",
-					        },
-				        },
-						materials = { "vehicle/waggon/skodapushpull/rumpf_sw.mtl", },
-						mesh = "vehicle/waggon/skodapushpull/tritt_lod0.msh",
 						name = "tritt3",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.61929, -1.1969, 0.55, 1, },
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tritt.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tritt.ani",
@@ -432,13 +432,13 @@ return {
                     },
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -466,13 +466,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -500,13 +500,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -534,13 +534,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -639,13 +639,13 @@ return {
                     },
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -673,13 +673,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_right = {
+					        open_doors_left = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_right = {
+					        close_doors_left = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -707,13 +707,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_1.ani",
@@ -741,13 +741,13 @@ return {
 					},
 					{
 				        animations = {
-					        open_doors_left = {
+					        open_doors_right = {
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
 						        },
 						        type = "FILE_REF",
 					        },
-					        close_doors_left = {
+					        close_doors_right = {
 							forward = false,
 						        params = {
 							        id = "vehicle/train/skodapushpull/tuer_2.ani",
@@ -792,6 +792,7 @@ return {
 		},
 		description = {
 			name = _("SkodaPushPull_ew_gedreht_name"),
+            description = _("skodapushpull_desc"),
 		},
 		emission = {
 			idleEmission = -1,
