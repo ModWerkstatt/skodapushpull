@@ -27,7 +27,7 @@ return {
 
     runFn = function (settings, modParams)
     local function SingleCarModifier(fileName, data)
-        if data.metadata and data.metadata.skoda_dosto and data.metadata.transportVehicle and data.metadata.transportVehicle.multipleUnitOnly then
+        if (data.metadata and data.metadata.skoda_dosto and data.metadata.transportVehicle and data.metadata.transportVehicle.multipleUnitOnly) then
             data.metadata.transportVehicle.multipleUnitOnly = false
         end
         return data
