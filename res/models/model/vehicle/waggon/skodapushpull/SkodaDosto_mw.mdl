@@ -1527,9 +1527,6 @@ return {
 			reversible = false,
             groupFileName = "vehicle/waggon/skodapushpull/menu_SkodaDosto.mdl",
 		},
-        skoda_dosto = {
-
-        }
 	},
 	version = 1,
 }
