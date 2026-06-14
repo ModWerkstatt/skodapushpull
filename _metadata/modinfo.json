@@ -1,10 +1,22 @@
 {
+    "name": "Škoda Reversible trainsets (Munich-Nuremberg Express)",
+    "summary": "In Germany unique double-deck train set made by Škoda.",
+    "description": "The Škoda reversible train sets are double-decker coaches for locomotive-hauled trains from railway manufacturer Škoda Transportation. In Germany, the carriages are used on the Munich-Nuremberg Express. The carriages were ordered in 2013 and were due to be used from 2017, but the first carriages will not be delivered until 2020. All carriages consist of a control and end carriage and four centre carriages. They are only allowed to run with a Class 102, which is also from Škoda. The carriages have never been particularly successful, so no more were purchased and they are expected to be taken out of service again at the end of 2027.",
+    "localization" : {
+        "de": {
+            "name": "Škoda Wendezug-Garnituren (München-Nürnberg-Express)",
+            "summary": "In Deutschland einmalige Wendezug-Garnitur von Doppelstockwagen.",
+            "description": "Die Škoda Wendezug-Garnituren sind Doppelstockwagen für lokomotivbespannte Züge des Eisenbahnherstellers Škoda Transportation. In Deutschland werden die Garnituren auf dem München-Nürnberg-Express eingesetzt. Die Wagen wurden 2013 bestellt und sollten ab 2017 eingesetzt werden, die ersten Garnituren liefern aber erst um Jahr 2020. Alle Garnituren bestehen aus je einem Steuer- und Endwagen sowie vier Mittelwagen. Verkehren dürfen sie nur mit der Bespannung einer BR 102, die ebenfalls von Škoda stammt. Besonders erfolgreich sind die Wagen nie gewesen, so wurden auch keine weiteren beschafft und zum Jahresende 2027 werden sie voraussichtlich wieder ausser Betrieb gehen."
+        }
+    },
     "authors": [
         {
-            "name": "",
+            "name": "ModWerkstatt",
             "role": "CREATOR"
         }
     ],
-    "name": "",
-    "url": ""
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/skoda-pushpull"
 }
