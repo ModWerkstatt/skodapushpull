@@ -1439,9 +1439,9 @@ return {
 									capacity = 116,
 									cargoTypeSet = {
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "PASSAENGERS" },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/passengers/passengers.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "",
 									seats = { },
@@ -1454,7 +1454,7 @@ return {
 				departureDelay = 2500,
 				engineTransportModes = { },
 				entrances = {
-					{ 
+					{
 						path = {
 							{ -6.65, -3, 0.1, },
 							{ -6.65, -2, 0.1, },
@@ -1464,7 +1464,7 @@ return {
 							{ -6.65, 0.3, 0.75, },
 						},
 					},
-					{ 
+					{
 						path = {
 							{ 6.65, -3, 0.1, },
 							{ 6.65, -2, 0.1, },
@@ -1474,7 +1474,7 @@ return {
 							{ 6.65, 0.3, 0.75, },
 						},
 					},
-					{ 
+					{
 						path = {
 							{ -6.65, 3, 0.1, },
 							{ -6.65, 2, 0.1, },
@@ -1484,7 +1484,7 @@ return {
 							{ -6.65, -0.3, 0.75, },
 						},
 					},
-					{ 
+					{
 						path = {
 							{ 6.65, 3, 0.1, },
 							{ 6.65, 2, 0.1, },
