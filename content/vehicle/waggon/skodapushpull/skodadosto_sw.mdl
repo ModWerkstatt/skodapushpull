@@ -859,13 +859,15 @@ return {
 				description = _("skodapushpull_desc"),
 				name = _("skodapushpull_sw_name"),
 			},
-			emissions = {
-				noise = {
+			emissions = { 
+				noise = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = {
+				pollution = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
