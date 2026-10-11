@@ -628,15 +628,53 @@ return {
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
+							animations = {
+								front_backward_parts_off = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/licht_weiss_lod0.msh",
-							name = "headlights_fwd",
+							name = "headlights_bwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
+							animations = {
+								back_forward_parts_off = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = {
+									interpolation = "NEAREST",
+									params = {
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
 							mesh = "msh/licht_rot_lod0.msh",
-							name = "beacklights_bwd",
+							name = "taillights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/innen.mtl", },
+							mesh = "msh/innen_sw_lod0.msh",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

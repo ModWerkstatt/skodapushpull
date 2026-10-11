@@ -568,7 +568,13 @@ return {
 						{
 							materials = { "mat/fenster.mtl", },
 							mesh = "msh/fenster_ew_lod0.msh",
-							name = "tritt4",
+							name = "fenster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "mat/innen.mtl", },
+							mesh = "msh/innen_ew_lod0.msh",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},

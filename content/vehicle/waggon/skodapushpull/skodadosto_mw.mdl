@@ -568,7 +568,7 @@ return {
 						{
 							materials = { "mat/innen.mtl", },
 							mesh = "msh/innen_mw_lod0.msh",
-							name = "interiour",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{
