@@ -777,6 +777,12 @@ return {
 							name = "tuer4",
 							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 6.6181, 1.385, 1.9555, 1, },
 						},
+						{
+							materials = { "mat/innen_sw.mtl", },
+							mesh = "msh/innen_lod2.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
